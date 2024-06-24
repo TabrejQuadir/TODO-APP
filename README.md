@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+React To-Do Application
+This is a simple To-Do application built with ReactJS. It allows users to add, view, edit, and delete tasks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Setup
+Follow these instructions to set up the project environment:
 
-## Available Scripts
+Prerequisites
+Node.js installed on your local machine. 
 
-In the project directory, you can run:
+Clone the Repository
+Open your terminal.
 
-### `npm start`
+Navigate to the directory where you want to clone the repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run the following command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/your-username/react-todo-app.git
+cd react-todo-app
+npm install
 
-### `npm test`
+Running the Application
+To run the application locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the project directory, run:npm start
+Open http://localhost:3000 in your web browser to view the application.
 
-### `npm run build`
+Usage
+Once the application is running, you can perform the following actions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add Task: Enter a task in the input field and press "Add Task" or press Enter.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit Task: Click the "Edit" button next to a task, modify the task text in the modal, and click "Save Changes".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Delete Task: Click the "Delete" button next to a task to remove it from the list.
 
-### `npm run eject`
+Toggle Task Completion: Click the checkbox next to a task to mark it as completed or incomplete.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Folder Structure
+src/: Contains the source code of the application.
+components/: Contains React components.
+actions/: Contains Redux action creators.
+reducers/: Contains Redux reducers.
+store.js: Redux store configuration.
+App.js: Main application component.
+index.js: Entry point of the application.
